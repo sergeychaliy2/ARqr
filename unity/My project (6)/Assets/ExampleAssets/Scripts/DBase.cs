@@ -13,13 +13,43 @@ namespace Polimorf
             private int life = 0;
             private int serie = 0;
 
+            public int getYear()
+            {
+                return year;
+            }
+
+            public void setYear(int year)
+            {
+                this.year = year;
+            }
+
+            public int getLife()
+            {
+                return life;
+            }
+
+            public void setLife(int life)
+            {
+                this.life = life;
+            }
+
+            public int getSerie()
+            {
+                return serie;
+            }
+
+            public void setSerie(int serie)
+            {
+                this.serie = serie;
+            }
+
             public DeviceInfo(int _year, int _life, int _serie)
             {
                 this.year = _year;
                 this.life = _life;
                 this.serie = _serie;
             }
-            public String GetDevice(DeviceInfo device_1)
+            public static  String GetDevice(DeviceInfo device_1)
             {
                 String str=" ";
                 try
