@@ -1,21 +1,27 @@
-using Polimorf;
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.InputSystem.LowLevel.InputEventTrace;
 
-public class GameManager : IDeviceLoader
+namespace Polimorf
 {
-    // Start is called before the first frame update
-    public string deviceinfo;
-    void Start()
-    {
-        deviceinfo = " ";
-    }
 
-    // Update is called once per frame
-    public void ButClick()
+    public class GameManager : ScriptableLoader
     {
-        deviceinfo= DeviceInfo.GetDevice();
-        Debug.Log(deviceinfo);
+        DeviceInfo deviceInfo = new DeviceInfo(1, 2, 3);
+        // Start is called before the first frame update
+        public string deviceinfo;
+        void Start()
+        {
+            deviceinfo = " ";
+        }
+
+        // Update is called once per frame
+        public void ButClick()
+        {
+            deviceinfo = GetDevice(deviceInfo);
+            Debug.Log(deviceinfo);
+        }
     }
 }
