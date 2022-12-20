@@ -15,7 +15,7 @@ D:/work/Unity Hub/My project (6)
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61941
+50459
 Successfully changed project path to: D:/work/Unity Hub/My project (6)
 D:/work/Unity Hub/My project (6)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/work/Unity Hub/My project (6)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 961.17 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 432.22 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.13f1 (22856944e6d2)
 [Subsystems] Discovering subsystems at path D:/2022.1.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,48 +63,48 @@ Initialize mono
 Mono path[0] = 'D:/2022.1.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.1.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/2022.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.066819 seconds.
+Registered in 0.040555 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 878.08 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 366.73 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.231 seconds
+- Completed reload, in  2.987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6233ms)
-		BeginReloadAssembly (1705ms)
+	ReloadAssembly (2988ms)
+		BeginReloadAssembly (317ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (4037ms)
-			LoadAssemblies (1691ms)
+		EndReloadAssembly (2163ms)
+			LoadAssemblies (305ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (586ms)
-				TypeCache.Initialize (585ms)
-					TypeCache.ScanAssembly (581ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (483ms)
+				TypeCache.Initialize (482ms)
+					TypeCache.ScanAssembly (477ms)
+				ResolveRequiredComponents (2ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (237ms)
-			SetupLoadedEditorAssemblies (2903ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (1310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (342ms)
-				SetLoadedEditorAssemblies (55ms)
-				RefreshPlugins (878ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (1018ms)
-				ProcessInitializeOnLoadMethodAttributes (601ms)
+				InitializePlatformSupportModulesInManaged (225ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (367ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (219ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.346626 seconds.
-Android Extension - Scanning For ADB Devices 15001 ms
+Registered in 0.052126 seconds.
+Android Extension - Scanning For ADB Devices 10231 ms
