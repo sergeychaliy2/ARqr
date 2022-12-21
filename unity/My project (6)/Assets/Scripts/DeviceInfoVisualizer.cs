@@ -9,8 +9,15 @@ using UnityEngine;
 public class DeviceInfoVisualizer : MonoBehaviour
 {
     private readonly DeviceLoader loader;
+    public void 
 
     public DeviceInfoVisualizer() => loader = new ScriptableLoader();
+
+    private void Update()
+    {
+        DeviceInfo device = loader.GetDevice(1);
+        Debug.Log(device.name + " " + device.serie);
+    }
 
     public void ShowInfo(uint id_device)
     {

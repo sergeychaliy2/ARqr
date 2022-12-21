@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DeviceInfo.cs" />
-    <Compile Include="Assets\Scripts\DeviceLoader.cs" />
     <Compile Include="Assets\Scripts\ScriptableLoader.cs" />
+    <Compile Include="Assets\Scripts\DeviceLoader.cs" />
     <Compile Include="Assets\Scripts\DeviceInfoVisualizer.cs" />
   </ItemGroup>
   <ItemGroup>
